@@ -6,7 +6,7 @@ description: Single job pipeline to train regression model based on nyc taxi dat
 jobs:
   train_job:
     type: command
-    component: azureml://registries/ZiqiTestRegistry/components/train/versions/10
+    component: azureml://registries/ZiqiTestRegistry/components/train_linear_regression_model/versions/2
     compute: azureml:cpu-cluster
     inputs:
       training_data: 
