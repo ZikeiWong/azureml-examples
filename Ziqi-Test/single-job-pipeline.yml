@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
-display_name: nyc_taxi_data_regression_single_job
+display_name: pipeline_with_registered_components
 description: Single job pipeline to train regression model based on nyc taxi dataset
 
 jobs:
