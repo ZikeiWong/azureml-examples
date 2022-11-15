@@ -3,7 +3,7 @@ type: command
 
 name: component_c
 display_name: componentC
-version: 1
+#version: 1
 
 code: ./componentC_src
 

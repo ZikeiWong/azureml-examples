@@ -1,6 +1,6 @@
 $schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
-display_name: 1b_e2e_registered_components
+display_name: CLI_1b_e2e_registered_components
 description: E2E dummy train-score-eval pipeline with registered components
 
 inputs:
@@ -35,7 +35,7 @@ jobs:
   
   score_job:
     type: command
-    component: azureml:my_score@latest
+    component: azureml:my_score:1
     inputs:
       model_input: ${{parent.jobs.train_job.outputs.model_output}}
       test_data: 

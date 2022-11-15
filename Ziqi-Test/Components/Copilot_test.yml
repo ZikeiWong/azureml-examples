@@ -1,0 +1,21 @@
+# component that splits data into train and test
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+type: command
+
+name: split_data
+display_name: SplitData
+#version: 1
+
+inputs:
+  input_data:
+    type: uri_folder
+  test_size:
+    type: float
+    default: 0.2
+outputs:
+  train_data:
+    type: uri_folder
+  test_data:
+    type: uri_folder
+
+code: ./split_data_src
