@@ -1,7 +1,7 @@
 # <component>
 $schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
-name: prep_taxi_data
-display_name: PrepTaxiData
+name: prep_data
+display_name: PrepData
 version: 1
 type: command
 inputs:

@@ -10,6 +10,8 @@ source('azureml_utils.R')
 Sys.setenv(MLFLOW_BIN=system("which mlflow", intern=TRUE))
 Sys.setenv(MLFLOW_PYTHON_BIN=system("which python", intern=TRUE))
 
+install.packages('imputeTS', repos = 'https://cran.r-project.org')
+
 parser <- OptionParser()
 parser <- add_option(parser, "--data_folder",
                      type="character", 

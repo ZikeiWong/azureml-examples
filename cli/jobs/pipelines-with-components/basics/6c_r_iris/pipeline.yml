@@ -7,7 +7,7 @@ jobs:
   r_iris_example:
     type: command
     component: ./component.yml
-    compute: azureml:cpu-cluster
+    compute: azureml:gpu-cluster
     inputs:
       iris: 
         type: uri_file

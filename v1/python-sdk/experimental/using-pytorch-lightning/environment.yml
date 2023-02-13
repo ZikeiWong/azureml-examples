@@ -5,8 +5,11 @@ dependencies:
   - pip
   - pip:
     - azureml-defaults
-    - torch==1.8.1
-    - torchvision==0.9.1
-    - pytorch-lightning==1.1.8
+    - torch==1.12.0
+    - torchvision==0.13.0
+    - pytorch-lightning==1.8.6
     - mlflow
     - azureml-mlflow
+    #- https://azuremlsdktestpypi.blob.core.windows.net/wheels/AzureML-Nebula-py-feed/dev-package/torch_nebula-0.1.0.dev1824-20221208.4-py3-none-any.whl
+    #- https://azuremlsdktestpypi.blob.core.windows.net/wheels/AzureML-Nebula-py-feed/release-package/torch_nebula-0.15.9-py3-none-any.whl
+    - https://azuremlsdktestpypi.blob.core.windows.net/wheels/AzureML-Nebula-py-feed/dev-package/torch_nebula-0.1.0.dev1840-20221219.2-py3-none-any.whl

@@ -1,7 +1,9 @@
 $schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
 type: pipeline
-display_name: nyc_taxi_data_regression
+display_name: data_regression
 description: Train regression model based on nyc taxi dataset
+
+experiment_name: Regression_Model
 
 # <inputs_and_outputs>
 
